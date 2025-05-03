@@ -23,7 +23,6 @@ const createTimer = () => {
       // make a note of the start time
       latestStartTime = timestamp + remainingTime;
     }
-    console.log(timestamp, latestStartTime);
 
     // the time to display now
     const currentTime = latestStartTime - timestamp;
